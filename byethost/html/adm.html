@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Admin Main page</title>
+  		<link rel="stylesheet" href="../css/style1.css" />
+	</head>
+	<body>
+		<div id="nav">
+      	<div id="heading">
+        		<img src="../images/canvas6.jpeg" alt="no image" width="200px" height="100px" style="float:left">
+        		
+      
+        	</div>
+      	<div id="navlinks">
+        		<a href="../project-hack-2/frontpage.html" style="font-weight: 400;">Home</a>
+      	</div>
+    	</div>
+		<h1>Admin Page</h1>
+		<div id="form-elements">
+  			
+			<form name="admin" action="../php/validate.php" method="POST">
+
+    			<fieldset style="height: 200px; width: 300px;">
+    				<h2>Bookings</h2>
+     				Details:
+     				<select name="booking" id="booking">
+       					<option value="faculty">Faculty</option>
+       					<option value="student">Student</option>
+     				</select>
+     				<br>
+     				<br>
+     				<input type="submit" value="Submit">
+   				</fieldset>
+  			</form> 
+  			<form name="admin1" action="../php/validate1.php" method="POST">
+ 				<fieldset style="height: 200px;width: 300px;">
+     				<h2>Staff</h2>
+   					Department:
+     				<select name="staff" id="staff">
+       					<option value="cse">CSE</option>
+       					<option value="ece">ECE</option>
+       					<option value="ise">ISE</option>
+       					<option value="me">ME</option>
+       					<option value="ce">CE</option>
+      					<option value="adm">ADM</option>
+    				</select>
+     				<br>
+     				<br>
+     				<input type="submit" value="Submit">
+   				</fieldset>
+  			</form> 
+  			<form name="admin2" action="../php/validate2.php" method="POST">
+   
+   				<fieldset style="height: 200px;width: 300px;">
+  					<h2>Students</h2>
+     				Department:
+     				<select name="dept" id="dept">
+       					<option value="cse">CSE</option>
+       					<option value="ece">ECE</option>
+       					<option value="ise">ISE</option>
+       					<option value="me">ME</option>
+       					<option value="ce">CE</option>
+       					<option value="adm">ADM</option>
+    				</select>
+    				<br>
+    				<br>
+    				Semester:
+    				<select name="sem" id="sem">
+      					<option value="two">2</option>
+      					<option value="four">4</option>
+      					<option value="six">6</option>
+      					<option value="eight">8</option>
+    				</select>
+     				<br>
+     				<br>
+     				<input type="submit" value="Submit">
+   				</fieldset>
+  			</form> 
+		</div>
+		<br>
+		<br>
+
+		<div class="categories">
+           <div class="small-container">
+               <h2 class="title">Precautions Against Covid-19</h2>
+               <br>
+               <div class="row">
+                  <div class="col3"><img src="../images/do-img1.png"><h4>Wash your hands</h4></div>
+                  <div class="col3"><img src="../images/do-img2.png"><h4>Always wear mask</h4></div>
+                  <div class="col3"><img src="../images/do-img3.png"><h4>Stay home during fever</h4></div>
+                  <div class="col3"><img src="../images/dont-img1.png"><h4>Avoid close contact with animals</h4></div>
+                  <div class="col3"><img src="../images/dont-img2.png"><h4>Avoid close contact with peoples</h4></div>
+                  <div class="col3"><img src="../images/dont-img3.png"><h4>Avoid crowded area</h4></div>
+                </div>
+            </div>
+		</div>
+
+	</body>
+</html>
